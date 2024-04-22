@@ -1,8 +1,17 @@
 - [DESIGN PATTERNS](README.md)
+- [INTRODUCCIÓN](intro.md)
 - Patrones Creacionales
-    - [Introducción](creational_patterns/creational_intro.md)
     - [Builder](creational_patterns/builder.md)
     - [Factory Method](creational_patterns/factory_method.md)
     - [Singleton](creational_patterns/singleton.md)
 - Patrones Estructurales
+    - [Adapter](structural_patterns/adapter.md)
+    - [Facade](structural_patterns/facade.md)
+    - [Decorator](structural_patterns/decorator.md)
+    - [Bridge](structural_patterns/bridge.md)
 - Patrones Comportamentales
+    - [Observer](behavioral_patterns/observer.md)
+    - [Event Bus](behavioral_patterns/event_bus.md)
+    - [Strategy](behavioral_patterns/strategy.md)
+    - [Memento](behavioral_patterns/memento.md)
+    - [Chain of responsability](behavioral_patterns/chain_of_responsability.md)

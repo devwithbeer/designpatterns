@@ -16,18 +16,18 @@ Algunos patrones cuentan con otras caracteristicas como aplicabilidad, pasos par
 
 
 ## TEMAS
-1. Patrones creacionales:
-   - Builder
-   - Factory Method
-   - Singleton
+**Patrones de creación**
+- Builder
+- Factory Method
+- Singleton
 
-2. Patrones estructurales
+**Patrones estructurales**
    - Adapter
    - Facade
    - Decorator
    - Bridge
 
-3. Patrones de comportamentales
+**Patrones de comportamiento**
    - Observer
    - Event Bus
    - Strategy
