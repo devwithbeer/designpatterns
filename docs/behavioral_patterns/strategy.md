@@ -19,8 +19,8 @@ Se toma la clase acoplada con muchos maneras de cumplir una tarea especifica y s
 
 ## BENEFICIOS
 - Se pueden cambiar algoritmos en tiempo de ejecución
-- se puede aislar la implementación de un algoritmo del codigo que lo usa
-- Promuevo el principio Open/close la permitir introducir nuevas caracteristicas o estrategias sin cambiar el contexto 
+- Se puede aislar la implementación de un algoritmo del codigo que lo usa
+- Promuevo el principio Open/close al permitir introducir nuevas caracteristicas o estrategias sin cambiar el contexto 
 
 ## DESVENTAJAS
 - Si hay solo pocos algoritmos que en realidad no cambian mucho en el tiempo no hay necesidad de complicar el código con más clases e interfaces 
@@ -137,7 +137,7 @@ main(){
   final value1 = keyboard.showValue();
 
   // Segundo Caso
-  final strategy = é();
+  final strategy = KeyboardPhoneFormatter();
   final keyboard2 = KeyboardPro(strategy);
   final value2 = keyboard2.showValue();
 

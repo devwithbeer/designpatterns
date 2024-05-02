@@ -1,7 +1,7 @@
 # Event Bus
 
 ## ¿QUÉ ES?
-El patrón de diseño Event Bus proporciona un mecanismo para la comunicación entre componentes de software sin la necesidad de conocer los detalles de la implementación. Esto se logra mediante la publicación de eventos en un bus de eventos (también llamado bus de mensajería). Los componentes pueden publicar, subscribirse y recibir los eventos publicados. Esto permite a los componentes comunicarse entre sí de forma asíncrona, sin que los componentes estén acoplados entre sí. En otras palabras un bus de eventos es un mecanismo mediante el cual los componentes pueden emitir eventos sin saber quién los va a recibir y recibir eventos sin saber quién los emite.
+El patrón de diseño Event Bus proporciona un mecanismo para la comunicación entre componentes de software sin la necesidad de conocer los detalles de la implementación. Esto se logra mediante la publicación de eventos en un bus (también llamado bus de mensajería). Los componentes pueden publicar, subscribirse y recibir los eventos publicados. Esto permite a los componentes comunicarse entre sí de forma asíncrona, sin que los componentes estén acoplados entre sí. En otras palabras un bus de eventos es un mecanismo mediante el cual los componentes pueden emitir eventos sin saber quién los va a recibir y recibir eventos sin saber quién los emite.
 
 ## ¿CASOS DE USO?
 - Comunir distintos componentes en toda la aplicación
@@ -19,8 +19,7 @@ El patrón Event Bus permite a los objetos suscribirse a ciertos eventos del Bus
 ## DESVENTAJAS
 - Una mala documentación de una app que creció mucho con este patrón puede hacer que un nuevo desarrollador tenga una mala curva de aprendizaje al no estar familiarizado con el código 
 - Es dificil seguir el código ya que muchas veces no estan explicito 
-- Es dificil testear el event bus y no se relacióna bien con los test unitarios 
-- 
+- Es dificil testear el event bus y no se relacióna bien con los test unitarios
 
 ## EJEMPLO
 ```Dart

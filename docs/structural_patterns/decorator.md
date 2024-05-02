@@ -16,7 +16,7 @@ El patrón decorator permite añadir comportamiento adicional a un objeto de man
 
 Extender una clase sería la solución que viene a la mente cuando se plantea alterar el comportamiento de un objeto, pero la herencia tiene dos problemas a tener en cuenta: La herencia es estatica es decir no se puede alterar el comportamiento de un objeto en tiempo de ejecuión solo reemplaza un objeto completo por otro creado en una subclase diferente. Y las subclases en la mayoria de lenguajes solo pueden tener una clase padre, es decir una subclase no puede heredar comportamientos de multiples clases al mismo tiempo. 
 
-Por lo anterior la solución es utilizar Agregación o Composición sobre la herencia. Las dos funcionan igual: Un objeto hace rederencia a otro y le dlega un trabajo asi un objeto puede usar el comportamiento de varias clases teniendo referencia a multiples objetos 
+Por lo anterior la solución es utilizar Agregación o Composición sobre la herencia. Las dos funcionan igual: Un objeto hace referencia a otro y le delega un trabajo, asi un objeto puede usar el comportamiento de varias clases teniendo referencia a multiples objetos 
 
 ## BENEFICIOS 
 - Se puede extender el comportamiento de un objeto sin hacer nuevas subclases 

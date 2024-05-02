@@ -15,14 +15,14 @@ Es un diseño de creación el cual permite construir objetos complejos paso a pa
 
 El problema se presenta cuando hay que crear un objeto muy complejo paso a paso o propiedad por propiedad, más aún cuando estas existen en gran cantidad o cuando hay que hacer lógica o calculos para determinar el valor de las mismas. Dando como resultado un constructor enorme que podría ser ilegible y aún peor disperso entre el código del cliente.
 
-?> En lenguajes como java donde no existen parametros opcionales o que tengan valores por defecto, este patrón es de muchísima utilidad, pero en lenguajes como kotlin o dart hay que analisar la lógica de creación para determinar la nacesidad de implementarlo
+?> En lenguajes como java donde no existen parametros opcionales o que tengan valores por defecto, este patrón es de muchísima utilidad, pero en lenguajes como kotlin o dart hay que analizar la lógica de creación para determinar la nacesidad de implementarlo
 
 
 ## SOLUCIÓN
 
 La solución que ofrece el patrón Builder consiste en delegar el proceso de creación del objeto de su misma clase a objetos separados llamados "builder", donde se organiza la construcción paso a paso,  no es necesario cumplir con todos ellos, o en un orden especifico, solamente se llama a los pasos necesesarios para generar un objeto especifico de acuerdo a las necesidades. Así mismo se pueden crear diferentes builders con implementaciónes diferentes para la construcción de objetos personalizados pero con los mismos pasos.
 
-> Usar patrón builder cuando se busque crear diferentes representaciónes de un mismo objeto, centralizando el proceso de cconstrucción.
+> Usar patrón builder cuando se busque crear diferentes representaciónes de un mismo objeto, centralizando el proceso de construcción.
 
 
 

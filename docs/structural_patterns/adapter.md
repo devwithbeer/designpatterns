@@ -2,7 +2,7 @@
 
 ## ¿QUÉ ES?
 
-Es un patrón de diseño estructural que permite colaborar a objetos con diferentes o incompatibles interfaces, permite interactuar a dos clases 
+Es un patrón de diseño estructural que permite comunicar a objetos con diferentes o incompatibles interfaces, permite interactuar a dos clases 
 
 ## CASOS DE USO
 - Adapter de ReciclerView - Datos a views

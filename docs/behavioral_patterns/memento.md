@@ -1,7 +1,7 @@
 # MEMENTO
 
 ## ¿QUÉ ES?
-Es un patrón de diseño comportamental que permite salvar y restaurar estados previos de un objeto sin revelera los detalles de la su implementación, en otras palabras el patrón Memento permite capturar y almacenar el estado de un objeto de manera que pueda restaurarse posteriormente a ese mismo estado. Esto significa que el patrón Memento crea una copia del estado interno de un objeto en una instancia separada de memoria. Esta copia de memoria se llama memento. El patrón Memento se utiliza para permitir a los objetos revertir a un estado anterior sin violar el principio de encapsulación.
+Es un patrón de diseño comportamental que permite salvar y restaurar estados previos de un objeto sin revelerar los detalles de su implementación, en otras palabras el patrón Memento permite capturar y almacenar el estado de un objeto de manera que pueda restaurarse posteriormente a ese mismo estado. Esto significa que el patrón Memento crea una copia del estado interno de un objeto en una instancia separada de memoria. Esta copia de memoria se llama memento. El patrón Memento se utiliza para permitir a los objetos revertir a un estado anterior sin violar el principio de encapsulación.
 
 ## ¿CASOS DE USO?
 - Cuando se quiere almacenar estados de objetos para ser capaces de restaurarlos como en el caso de una función UNDO o en transacciónes cuando se quiere retroceder en un error de operación 
